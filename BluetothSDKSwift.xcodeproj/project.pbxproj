@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		257210FD2A1A2781002723EA /* BluetothSDKSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257210FC2A1A2781002723EA /* BluetothSDKSwift.swift */; };
+		257211042A1A27EB002723EA /* UIView + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257211032A1A27EB002723EA /* UIView + Extention.swift */; };
+		257211082A1A283E002723EA /* UiColor + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257211072A1A283E002723EA /* UiColor + Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		257210F92A1A2781002723EA /* libBluetothSDKSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBluetothSDKSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		257210FC2A1A2781002723EA /* BluetothSDKSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetothSDKSwift.swift; sourceTree = "<group>"; };
+		257211032A1A27EB002723EA /* UIView + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extention.swift"; sourceTree = "<group>"; };
+		257211072A1A283E002723EA /* UiColor + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiColor + Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				257210FC2A1A2781002723EA /* BluetothSDKSwift.swift */,
+				257211032A1A27EB002723EA /* UIView + Extention.swift */,
+				257211072A1A283E002723EA /* UiColor + Extention.swift */,
 			);
 			path = BluetothSDKSwift;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257211082A1A283E002723EA /* UiColor + Extention.swift in Sources */,
 				257210FD2A1A2781002723EA /* BluetothSDKSwift.swift in Sources */,
+				257211042A1A27EB002723EA /* UIView + Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
